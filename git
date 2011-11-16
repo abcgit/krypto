@@ -1,12 +1,11 @@
 git:
     - Wer kein git-repo hat, kann sich eines bei github.com klicken
 
-Nicos Repo holen:
+Beginn zu arbeiten:
     git clone git://git.schottelius.org/hszt/krypto-fallstudie
-
-Github Repo als Remote hinzufügen:
     cd krypto-fallstudie
-    git remote add github <url-den-ihr-von-github-habt-für-rw>
+    git remote add github <url-den-ihr-von-github-habt-für-rw> # Wichtig: Schreibzugriff
+    git push github master # Repo bei github befüllen (nur beim 1. mal):
 
 Status anzeigen: (sehr wichtig)
     git status
@@ -14,8 +13,6 @@ Status anzeigen: (sehr wichtig)
 Verlauf anzeigen:
     git log
 
-Repo bei github befüllen (nur beim 1. mal):
-    git push github master
 
 Datei (änderung oder neu) für den nächsten Commit hinzufügen:
     git add <datei>
