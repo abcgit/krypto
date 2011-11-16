@@ -1,0 +1,11 @@
+git:
+    - Wer kein git-repo hat, kann sich eines bei github.com klicken
+
+Nicos Repo holen:
+    git clone git://git.schottelius.org/hszt/krypto-fallstudie
+
+Github Repo als Remote hinzufügen:
+    cd krypto-fallstudie
+    git remote add github <url-den-ihr-von-github-habt-für-rw>
+
+
