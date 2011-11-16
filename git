@@ -31,6 +31,9 @@ Datei (änderung oder neu) für den nächsten Commit hinzufügen:
     git fetch origin
     git merge origin/master
 
+Für Fortgeschrittene:
+    Die anderen Repos direkt nutzen:
 
-
+    git remote add drothli git://git.d-roth.li/hszt/informatik/crypto/fallstudie.git
+    git remote add dani git://github.com/abcgit/scratch
 
