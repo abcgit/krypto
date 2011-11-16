@@ -23,5 +23,14 @@ Datei (änderung oder neu) für den nächsten Commit hinzufügen:
     git commit -m "nachricht" # commit einpflegen
     git push github # änderungen hochladen
 
+Änderungen bekommen
+    git pull origin # neueste Sachen von Nico mergen
+
+    In Einzelschritten:
+
+    git fetch origin
+    git merge origin/master
+
+
 
 
