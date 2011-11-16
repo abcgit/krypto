@@ -8,4 +8,20 @@ Github Repo als Remote hinzufügen:
     cd krypto-fallstudie
     git remote add github <url-den-ihr-von-github-habt-für-rw>
 
+Status anzeigen: (sehr wichtig)
+    git status
+
+Verlauf anzeigen:
+    git log
+
+Repo bei github befüllen (nur beim 1. mal):
+    git push github master
+
+Datei (änderung oder neu) für den nächsten Commit hinzufügen:
+    git add <datei>
+    git status # schauen was ist los
+    git commit -m "nachricht" # commit einpflegen
+    git push github # änderungen hochladen
+
+
 
