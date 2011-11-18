@@ -32,7 +32,7 @@ Für Fortgeschrittene:
     Die anderen Repos direkt nutzen:
 
     git remote add drothli git://git.d-roth.li/hszt/informatik/crypto/fallstudie.git
-    git remote add dani git://github.com/abcgit/scratch
+    git remote add dani git://github.com/abcgit/krypto.git
     git remote add oli git://github.com/repoli/crypto_case_study.git
     git remote add linda git://github.com/liha/KryptoGit.git
 
