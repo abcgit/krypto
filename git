@@ -28,6 +28,14 @@ Datei (änderung oder neu) für den nächsten Commit hinzufügen:
     git fetch origin
     git merge origin/master
 
+Unterschiede an einem Dokument anzeigen:
+    git diff <dateiname> # änderungen, die ich gemacht habe
+    git diff <commitid> <commitid> <dateiname> # änderungen zwischen den beiden commits
+
+    git checkout <commit> -- <dateiname> # version des dokuments von <commit> auschecken
+    mv <dateiname> <meinwunschname> # datei verschieben
+    git checkout HEAD -- <dateiname> # letzte version aus git rausholen
+
 Für Fortgeschrittene:
     Die anderen Repos direkt nutzen:
 
